@@ -1,4 +1,4 @@
-# Sample Hardhat Project
+# Eth Faucet on Ganache (test)
 
 Eth faucet running on ganache local network.
 
@@ -8,3 +8,6 @@ Eth faucet running on ganache local network.
 3. run the script to deploy the contract
 npx hardhat run scripts/deploy.js --network localhost
 
+## Notes
+compile with hardhat if there is no artifacts
+npx hardhat compile
